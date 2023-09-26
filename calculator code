@@ -31,15 +31,15 @@ calculator()
 	 cout<<"Calculator"<<endl<<endl;
 	 cout<<"[1]  Addition"<<endl;
 	 cout<<"[2]  Substraction"<<endl;
-   cout<<"[3]  Product"<<endl;
-   cout<<"[4]  Divsion"<<endl<<endl;
-   cout<<"Your choice: ";
+     cout<<"[3]  Product"<<endl;
+     cout<<"[4]  Divsion"<<endl<<endl;
+     cout<<"Your choice: ";
 	 char a;
 	 cin>>a;
     	{
 	     switch(a)
-          {
-           case '1' : cout<<"x+y= "<<x+y; break;
+            {
+             case '1' : cout<<"x+y= "<<x+y; break;
     	     case '2' : cout<<"x-y= "<<x-y; break;
     	     case '3' : cout<<"x*y= "<<x*y; break;
 	         case '4' : cout<<"x/y= "<<x/y; break;
@@ -61,9 +61,9 @@ calculator()
 	 cout<<"Calculator"<<endl<<endl;
 	 cout<<"[1]  Sine"<<endl;
 	 cout<<"[2]  Cosine"<<endl;
-   cout<<"[3]  Tangent"<<endl;
-   cout<<"[4]  Cotangent"<<endl<<endl;
-   cout<<"Your choice: ";
+     cout<<"[3]  Tangent"<<endl;
+     cout<<"[4]  Cotangent"<<endl<<endl;
+     cout<<"Your choice: ";
 	 char b;
 	 cin>>b;
 	    {
@@ -94,17 +94,17 @@ calculator()
 	}
 	
 	if(ch=='4')
-  	{
-   cout<<"Calculator"<<endl<<endl;
+	{
+	 cout<<"Calculator"<<endl<<endl;
 	 int x;
 	 cout<<"<< Form: log e(x) >>"<<endl;
 	 cout<<"Enter x: ";
 	 cin>>x;
 	 system("cls");
        
-   cout<<"Calculator"<<endl<<endl;
+     cout<<"Calculator"<<endl<<endl;
 	 cout<<"log e(x)= "<<log(x);	
-  }
+    }
 }
 
 main()
@@ -116,15 +116,15 @@ main()
 	while(true)
 	{	
  	 char c;
-     cout<<endl<<endl<<"Do you want to continue?";
+     cout<<endl<<endl<<"Do you want to continue?"<<endl<<"[y/n]: ";
      cin>>c;
      if(c=='n')
      exit(0);	
      if(c=='y')
-     {
-     system("cls"); 
+        {
+         system("cls"); 
 		 calculator(); 	
-	   }
+	    }
 	} 
 
     getch();
