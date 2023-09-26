@@ -31,24 +31,23 @@ calculator()
 	 cout<<"Calculator"<<endl<<endl;
 	 cout<<"[1]  Addition"<<endl;
 	 cout<<"[2]  Substraction"<<endl;
-     cout<<"[3]  Product"<<endl;
-     cout<<"[4]  Divsion"<<endl<<endl;
-     cout<<"Your choice: ";
+         cout<<"[3]  Product"<<endl;
+         cout<<"[4]  Divsion"<<endl<<endl;
+         cout<<"Your choice: ";
 	 char a;
 	 cin>>a;
-    	{
+    	    {
 	     switch(a)
-            {
-             case '1' : cout<<"x+y= "<<x+y; break;
-    	     case '2' : cout<<"x-y= "<<x-y; break;
-    	     case '3' : cout<<"x*y= "<<x*y; break;
+                {
+                 case '1' : cout<<"x+y= "<<x+y; break;
+    	         case '2' : cout<<"x-y= "<<x-y; break;
+    	         case '3' : cout<<"x*y= "<<x*y; break;
 	         case '4' : cout<<"x/y= "<<x/y; break;
 	         default  : cout<<"Error";
 	        }
 	    }		
-    } 
+        } 
     
-
     if(ch=='2')
 	{		
 	 cout<<"Calculator"<<endl<<endl;
@@ -61,22 +60,22 @@ calculator()
 	 cout<<"Calculator"<<endl<<endl;
 	 cout<<"[1]  Sine"<<endl;
 	 cout<<"[2]  Cosine"<<endl;
-     cout<<"[3]  Tangent"<<endl;
-     cout<<"[4]  Cotangent"<<endl<<endl;
-     cout<<"Your choice: ";
+         cout<<"[3]  Tangent"<<endl;
+         cout<<"[4]  Cotangent"<<endl<<endl;
+         cout<<"Your choice: ";
 	 char b;
 	 cin>>b;
-	    {
+	  {
      	 switch(b)
-	    	{
-	     	 case '1' : cout<<"sin(x)= "<<sin(x); break;
-	    	 case '2' : cout<<"cos(x)= "<<cos(x); break;
-	    	 case '3' : cout<<"tan(x)= "<<tan(x); break;
-	    	 case '4' : cout<<"cot(x)= "<<1/tan(x); break;
-	    	 default  : cout<<"Error";
-	    	}	
+	    {
+	     case '1' : cout<<"sin(x)= "<<sin(x); break;
+	     case '2' : cout<<"cos(x)= "<<cos(x); break;
+	     case '3' : cout<<"tan(x)= "<<tan(x); break;
+	     case '4' : cout<<"cot(x)= "<<1/tan(x); break;
+	     default  : cout<<"Error";
 	    }	
-    }
+	  }	
+        }
     
     if(ch=='3')
 	{
@@ -102,20 +101,20 @@ calculator()
 	 cin>>x;
 	 system("cls");
        
-     cout<<"Calculator"<<endl<<endl;
+         cout<<"Calculator"<<endl<<endl;
 	 cout<<"log e(x)= "<<log(x);	
-    }
+        }
 }
 
 main()
 {
-	system("color F0");
+     system("color F0");
 	
-	calculator();
+     calculator();
 	
-	while(true)
+     while(true)
 	{	
- 	 char c;
+     char c;
      cout<<endl<<endl<<"Do you want to continue?"<<endl<<"[y/n]: ";
      cin>>c;
      if(c=='n')
@@ -123,8 +122,8 @@ main()
      if(c=='y')
         {
          system("cls"); 
-		 calculator(); 	
-	    }
+	 calculator(); 	
+	}
 	} 
 
     getch();
